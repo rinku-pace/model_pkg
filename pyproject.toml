@@ -1,5 +1,5 @@
 [build-system]
-requires = ["setuptools >= 40.9.0", "wheel"]
+requires = ["setuptools >= 72.1.0", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
@@ -15,8 +15,6 @@ classifiers = [
     "License :: OSI Approved :: MIT License",
     "Operating System :: OS Independent",
     "Programming Language :: Python :: 3 :: Only",
-    "Programming Language :: Python :: 3.8",
-    "Programming Language :: Python :: 3.9",
     "Programming Language :: Python :: 3.10",
     "Programming Language :: Python :: Implementation :: CPython",
     "Topic :: Software Development :: Libraries :: Application Frameworks",
@@ -28,11 +26,10 @@ dependencies = [
 ]
 
 [project.urls]
-Repository = "https://github.com/realpython/django-receipts"
+Repository = "https://github.com/rinku-pace/model_pkg/tree/master"
 
 [project.optional-dependencies]
 dev = [
     "build==1.2.1",
-    "nox==2024.4.15",
     "twine==5.1.1",
 ]
